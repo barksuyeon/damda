@@ -1,0 +1,62 @@
+*{margin:0; padding:0;}
+	ul{list-style:none;}
+	a{color:#0c1327; text-decoration:none;}
+	body{font-size:14px; line-height:24px; color:#0c1327; font-family:"GoyangIlsan";}
+	@font-face {
+    font-family: 'GoyangIlsan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GoyangIlsan.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+	
+	/*공통헤더*/
+		
+		.top{background:#2d2111; overflow:hidden;}
+		.head_in{width:1200px; margin:auto; overflow:hidden;}
+		.head_rap{margin:70px 0 0; overflow:hidden;}
+		
+		.nav{float:right; width:500px; padding-top:50px; box-sizing:border-box;}
+		.nav ul{float:right;}
+		.nav ul li{float:left;}
+		.nav ul li a{display:block; font-size:32px; color:#fff; padding:32px 0 32px 30px;}
+		
+		.logo{width:300px; float:left;}
+		.logo img{width:100%;}
+	
+		.bar{background:#e7b254; height:;}
+		.bar_in{width:1200px; margin:auto; overflow:hidden; padding:20px 0;}
+		.search input{width:300px; height:30px; border-radius:36px; display:block; float:left; color:#666; border:1px solid #777; padding:0 20px;}
+		.info_out{float:right; width:200px;}
+		.info{float:right;}
+		.info li{float:left;}
+		.info li a{display:block; color:#fff; font-size:24px; padding-left:15px;}
+		.info li:nth-child(1){padding-right:15px;}
+		.info li:nth-child(2){border-left:1px solid #fff;}
+		
+		.nav ul li a:hover{color:#e7b254;}
+		
+	/*공통헤더*/
+	
+	/*공통푸터*/
+	
+		.brown{background:#66322c; height:70px;}
+		.brown_menu{width:1200px; margin:auto; height:70px;}
+		.brown_menu ul li{float:left;}
+		.brown_menu ul li a{display:block; padding:25px 30px 30px 0; color:#fff;}
+		
+		.blue{background:#0c1327; height:200px;}
+		.blue_in{width:1200px; margin:auto; padding:20px 0; height:40px;}
+		
+		.sub_logo{width:150px; float:left;}
+		.sub_logo a img{width:150px;}
+		
+		.icon{width:350px; height:45px; float:right;}
+		.icon ul{float:right;}
+		.icon ul li{float:left;}
+		.icon ul li a{display:block; padding-left:30px;}
+		.icon ul li a img{width:45px;}
+		
+		.copyright{color:#ccc; width:1200px; margin:auto;}
+		.copyright p{display:block;}
+	
+	/*공통푸터*/
