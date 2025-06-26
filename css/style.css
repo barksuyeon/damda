@@ -432,6 +432,10 @@ header {
     margin-bottom: 200px;
 }
 
+#contents3 .new_product img{
+    margin-bottom: 15px;
+}
+
 .slide-in-image-list {
     width: 100%;
     overflow: hidden;
